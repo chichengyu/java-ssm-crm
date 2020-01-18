@@ -3,7 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-
+    
+    <!-- 设置默认访问页面 -->
+    <welcome-file-list>
+        <welcome-file>dologin</welcome-file>
+    </welcome-file-list>
+    <servlet-mapping>
+        <servlet-name>dispatcherServlet</servlet-name>
+        <url-pattern>/dologin</url-pattern>
+    </servlet-mapping>
+    
     <!-- 配置静态资源 -->
     <servlet-mapping>
         <servlet-name>default</servlet-name>

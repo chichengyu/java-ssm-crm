@@ -25,7 +25,7 @@ public class LoginInterceptor implements HandlerInterceptor {
         //System.out.println(request.getServletPath());// /dologin
         // 公共路径
         String url = request.getRequestURL().toString();// http://localhost:8080/crm/dologin
-        if (url.contains("/dologin") || url.contains("/logout") || url.contains("/captcha")){
+        if (url.contains("/index") || url.contains("/dologin") || url.contains("/logout") || url.contains("/captcha")){
             return true;
         }
         User user = (User)request.getSession().getAttribute(UserConstart.USER_KEY);
