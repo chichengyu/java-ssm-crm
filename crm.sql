@@ -185,7 +185,7 @@ CREATE TABLE `crm_user` (
 -- ----------------------------
 -- Records of crm_user
 -- ----------------------------
-INSERT INTO `crm_user` VALUES ('5', 'admin', 'admin', '202cb962ac59075b964b07152d234b70', '1');
-INSERT INTO `crm_user` VALUES ('6', 'xiaohong', '小红', '202cb962ac59075b964b07152d234b70', '1');
-INSERT INTO `crm_user` VALUES ('7', 'xiaoming', '小明', '202cb962ac59075b964b07152d234b70', '1');
-INSERT INTO `crm_user` VALUES ('8', 'xiaohong2', '小红2', '202cb962ac59075b964b07152d234b70', '1');
+INSERT INTO `crm_user` VALUES ('5', 'admin', 'admin', '$10$UMkj.rchBrs/5AJEptsSqeFGjYeL4cR1WtJ.1l.78ww5pwvmW0.1u', '1');
+INSERT INTO `crm_user` VALUES ('6', 'xiaohong', '小红', '$10$UMkj.rchBrs/5AJEptsSqeFGjYeL4cR1WtJ.1l.78ww5pwvmW0.1u', '1');
+INSERT INTO `crm_user` VALUES ('7', 'xiaoming', '小明', '$10$UMkj.rchBrs/5AJEptsSqeFGjYeL4cR1WtJ.1l.78ww5pwvmW0.1u', '1');
+INSERT INTO `crm_user` VALUES ('8', 'xiaohong2', '小红2', '$10$UMkj.rchBrs/5AJEptsSqeFGjYeL4cR1WtJ.1l.78ww5pwvmW0.1u', '1');
